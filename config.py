@@ -14,5 +14,5 @@ class Config(object):
    CHNAME = os.environ.get("CHNAME")
    # Heroku App Name Full Eg:- {appname}.herokuapp.com
    APP_NAME = os.environ.get("APP_NAME")
-   # Port No. Leave it blank if you don't know.
+   # Port No. Leave it blank if you d on't know.
    PORT = int(os.environ.get("PORT", "8080"))
